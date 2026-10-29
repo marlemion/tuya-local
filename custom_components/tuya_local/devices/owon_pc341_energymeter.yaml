@@ -438,6 +438,18 @@ entities:
         optional: true
         name: data
   - entity: sensor
+    name: Power Line 1
+    class: power
+    category: diagnostic
+    dps:
+      - id: 101
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
+  - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
       x: Line 2
@@ -455,8 +467,18 @@ entities:
         type: base64
         optional: true
         name: data
-        mapping:
-          - scale: 100
+  - entity: sensor
+    name: Power Line 2
+    class: power
+    category: diagnostic
+    dps:
+      - id: 102
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
   - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
@@ -476,6 +498,18 @@ entities:
         optional: true
         name: data
   - entity: sensor
+    name: Power Line 3
+    class: power
+    category: diagnostic
+    dps:
+      - id: 103
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
+  - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
       x: Line 4
@@ -493,6 +527,18 @@ entities:
         type: base64
         optional: true
         name: data
+  - entity: sensor
+    name: Power Line 4
+    class: power
+    category: diagnostic
+    dps:
+      - id: 104
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
   - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
@@ -512,6 +558,18 @@ entities:
         optional: true
         name: data
   - entity: sensor
+    name: Power Line 5
+    class: power
+    category: diagnostic
+    dps:
+      - id: 105
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
+  - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
       x: Line 6
@@ -529,6 +587,18 @@ entities:
         type: base64
         optional: true
         name: data
+  - entity: sensor
+    name: Power Line 6
+    class: power
+    category: diagnostic
+    dps:
+      - id: 106
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
   - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
@@ -548,6 +618,18 @@ entities:
         optional: true
         name: data
   - entity: sensor
+    name: Power Line 7
+    class: power
+    category: diagnostic
+    dps:
+      - id: 107
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
+  - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
       x: Line 8
@@ -565,6 +647,18 @@ entities:
         type: base64
         optional: true
         name: data
+  - entity: sensor
+    name: Power Line 8
+    class: power
+    category: diagnostic
+    dps:
+      - id: 108
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
   - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
@@ -584,6 +678,18 @@ entities:
         optional: true
         name: data
   - entity: sensor
+    name: Power Line 9
+    class: power
+    category: diagnostic
+    dps:
+      - id: 109
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
+  - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
       x: Line 10
@@ -601,6 +707,18 @@ entities:
         type: base64
         optional: true
         name: data
+  - entity: sensor
+    name: Power Line 10
+    class: power
+    category: diagnostic
+    dps:
+      - id: 110
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
   - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
@@ -620,6 +738,18 @@ entities:
         optional: true
         name: data
   - entity: sensor
+    name: Power Line 11
+    class: power
+    category: diagnostic
+    dps:
+      - id: 111
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
+  - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
       x: Line 12
@@ -637,6 +767,18 @@ entities:
         type: base64
         optional: true
         name: data
+  - entity: sensor
+    name: Power Line 12
+    class: power
+    category: diagnostic
+    dps:
+      - id: 112
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
   - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
@@ -656,6 +798,18 @@ entities:
         optional: true
         name: data
   - entity: sensor
+    name: Power Line 13
+    class: power
+    category: diagnostic
+    dps:
+      - id: 113
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
+  - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
       x: Line 14
@@ -673,6 +827,18 @@ entities:
         type: base64
         optional: true
         name: data
+  - entity: sensor
+    name: Power Line 14
+    class: power
+    category: diagnostic
+    dps:
+      - id: 114
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
   - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
@@ -692,6 +858,18 @@ entities:
         optional: true
         name: data
   - entity: sensor
+    name: Power Line 15
+    class: power
+    category: diagnostic
+    dps:
+      - id: 115
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
+  - entity: sensor
     translation_key: energy_consumed_x
     translation_placeholders:
       x: Line 16
@@ -709,6 +887,18 @@ entities:
         type: base64
         optional: true
         name: data
+  - entity: sensor
+    name: Power Line 16
+    class: power
+    category: diagnostic
+    dps:
+      - id: 116
+        type: base64
+        name: sensor
+        optional: true
+        unit: W
+        class: measurement
+        mask: "0000000000000000FFFF0000000000000000"
   - entity: text
     name: Settings
     category: config
